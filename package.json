@@ -1,0 +1,30 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "a tutorial for into to backend",
+  "homepage": "https://github.com/Ahmed7911/first-project#readme",
+  "bugs": {
+    "url": "https://github.com/Ahmed7911/first-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed7911/first-project.git"
+  },
+  "license": "ISC",
+  "author": "Ahmed Mostafa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
